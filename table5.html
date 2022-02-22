@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table5</title>
+   <style>
+        .bottomright{
+            border-bottom: 10px dotted  rgb(238, 32, 32);
+            border-right: 10px dotted  rgb(238, 32, 32);
+       }
+       .right{
+            border-right: 10px dotted  rgb(238, 32, 32);
+       }
+       
+       td,th {
+           text-align: center;
+           padding: 20px;
+            outline: 15px solid white;
+            outline-offset: 10px;
+           
+       }
+       th {
+           color: rgb(67, 218, 67);
+       }
+       td:last-child, th:last-child{
+           border-right: 0px solid;
+       }
+
+   </style>
+
+</head>
+<body>
+    <table style ="background-color: rgb(238, 238, 76); width: 50%; margin: auto;">
+        <tr>
+            <th class="bottomright">Title</th>
+            <th class="bottomright">Title</th>
+            <th class="bottomright">Title</th>
+        </tr>
+        <tr>                    
+            <td style="color: rgb(67, 218, 67); " class="bottomright"><b><i>ITEM<br>
+                number one</b></i>
+            </td>
+            <td class="bottomright">text,text,<br>
+                more text,<br>
+                more more
+            </td>
+           <td class="bottomright">some <br>
+               more
+           </td> 
+        </tr>
+        <tr>
+            <td style="color: rgb(67, 218, 67);" class="right"><b><i>ITEM</b></i></td>
+            <td class="right">text</td>
+            <td>more text</td>
+        </tr>
+    </table>
+
+
+
+</body>
+</html>
